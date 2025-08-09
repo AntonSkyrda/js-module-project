@@ -1,0 +1,51 @@
+#user-information > h2 {
+    text-align: center;
+}
+
+.details {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 20px;
+    padding: 20px;
+}
+
+.details > h3 {
+    text-align: center;
+}
+
+.back-to-users {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-container:hover {
+    border: 1px solid #000;
+}
+
+.post-container > a {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+h5 {
+    text-align: center;
+}
