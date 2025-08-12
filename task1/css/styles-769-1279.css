@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) and (max-height: 1279px) {
+    .container {
+        width: 50vw;
+        height: 100vh;
+        align-items: center;
+        border-radius: 0;
+    }
+
+    .output-wrapper {
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    label, input, #add-btn {
+        margin: 0.5em;
+    }
+}
