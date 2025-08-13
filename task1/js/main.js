@@ -13,7 +13,7 @@ addBtn.onclick = (event) => {
     const match = pairsInput.value.match(regex);
     if (!match) {
         alert("Please enter a valid pair");
-        return 0;
+        return null;
     }
     keyValuePairs.push({name: match[1].toLowerCase(), value: match[2].toLowerCase()});
     localStorage.setItem("keyValuePairs", JSON.stringify(keyValuePairs));
