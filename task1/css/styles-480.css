@@ -1,0 +1,51 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+
+    }
+
+    .output-wrapper {
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input {
+        width: 65vw;
+        height: 4vh;
+    }
+
+    label, input, #add-btn {
+        margin: 0.5em;
+    }
+
+    .output-wrapper {
+        width: 100%;
+    }
+
+    .output-container {
+        gap: 0.5em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #output {
+        width: 100%;
+    }
+
+    button {
+        height: 3em;
+        width: 50vw;
+    }
+
+    .button-container {
+        align-items: center;
+    }
+}
